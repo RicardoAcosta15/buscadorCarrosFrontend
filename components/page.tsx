@@ -5,6 +5,7 @@ import Image from 'next/image'
 import "primereact/resources/themes/lara-light-indigo/theme.css";     
 import "primereact/resources/primereact.min.css";                                       
 import { fuels, yearsOfProduction } from '@/constants';
+import React from 'react';
 
 
 
@@ -55,3 +56,4 @@ export default function Home() {
     </main>
   )
 }
+
